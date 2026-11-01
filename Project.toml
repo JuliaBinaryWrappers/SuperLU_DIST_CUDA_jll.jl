@@ -1,4 +1,4 @@
-version = "9.3.1+0"
+version = "9.3.2+0"
 name = "SuperLU_DIST_CUDA_jll"
 uuid = "32712609-44d4-5b88-8647-7f032361c66d"
 
@@ -24,6 +24,7 @@ METIS_jll = "d00139f3-1899-568f-a2f0-47f597d42d70"
 [compat]
 MPItrampoline_jll = "5.5.7"
 MPICH_jll = "5.0.3"
+MicrosoftMPI_jll = "10.1.5"
 MPIABI_jll = "1.0.0"
 MPIPreferences = "0.1"
 LazyArtifacts = "< 0.0.1, 1"
