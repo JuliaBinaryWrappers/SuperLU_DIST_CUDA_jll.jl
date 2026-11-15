@@ -1,96 +1,276 @@
 [[SuperLU_DIST_CUDA]]
 arch = "x86_64"
 cuda = "12.0"
-git-tree-sha1 = "f94f7dc0b66fb222a7e2b99ff5212df247caa492"
+git-tree-sha1 = "8cec3f83189abb3c532e20cc34727398dc4b50f9"
 lazy = true
 libc = "glibc"
 mpi = "mpiabi"
 os = "linux"
 
     [[SuperLU_DIST_CUDA.download]]
-    sha256 = "ddd2c20e01b0ae0da8733afc3648e1ce1232fb37a240f52bf0a3ab1b314b2edc"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+0/SuperLU_DIST_CUDA.v9.3.2.x86_64-linux-gnu-cuda+12.0-mpi+mpiabi.tar.gz"
+    sha256 = "9c87e49e46f44165e92e1510f438faf5d7e2a663d7261ddaa5e6e23de06b42a4"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.x86_64-linux-gnu-cuda+12.0-mpi+mpiabi.tar.gz"
+[[SuperLU_DIST_CUDA]]
+arch = "aarch64"
+cuda = "12.0"
+cuda_platform = "jetson"
+git-tree-sha1 = "cc31cc1a660cece600b68aaeed23a45b0ed22b22"
+lazy = true
+libc = "glibc"
+mpi = "mpiabi"
+os = "linux"
+
+    [[SuperLU_DIST_CUDA.download]]
+    sha256 = "5bd64bd3ba310e297899609580adbc78e50861941359623b8f789f9ae8a6d711"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0-mpi+mpiabi.tar.gz"
+[[SuperLU_DIST_CUDA]]
+arch = "aarch64"
+cuda = "12.0"
+cuda_platform = "sbsa"
+git-tree-sha1 = "08e02ec54bb931d148c8609f3a07e20f3ab656a2"
+lazy = true
+libc = "glibc"
+mpi = "mpiabi"
+os = "linux"
+
+    [[SuperLU_DIST_CUDA.download]]
+    sha256 = "2312433af76734ec5566feafc260c5095c4df41dd222f7153195f53b8d4931b9"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0-mpi+mpiabi.tar.gz"
 [[SuperLU_DIST_CUDA]]
 arch = "x86_64"
 cuda = "12.8"
-git-tree-sha1 = "74970895514cbbd29b1fb4e4f23c48d6511c3040"
+git-tree-sha1 = "2b7aba146de6c0445c1f36fe7c096e9311a5fbf4"
 lazy = true
 libc = "glibc"
 mpi = "mpiabi"
 os = "linux"
 
     [[SuperLU_DIST_CUDA.download]]
-    sha256 = "d119660b93a6fff788186bd41806a3384a01298f1cbc466097686f44cf1f52e1"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+0/SuperLU_DIST_CUDA.v9.3.2.x86_64-linux-gnu-cuda+12.8-mpi+mpiabi.tar.gz"
+    sha256 = "3b5d9f30277db346e00020b55cb03beb609609ddf1a2a038c52967da9c84b44f"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.x86_64-linux-gnu-cuda+12.8-mpi+mpiabi.tar.gz"
+[[SuperLU_DIST_CUDA]]
+arch = "aarch64"
+cuda = "12.8"
+cuda_platform = "jetson"
+git-tree-sha1 = "2de11d3f0ed5fa40e5a735b2f58072edabc8e476"
+lazy = true
+libc = "glibc"
+mpi = "mpiabi"
+os = "linux"
+
+    [[SuperLU_DIST_CUDA.download]]
+    sha256 = "d3afda52cb3ef964d8e6fb60ec4386a55a30862b09fedae80e672697c96357c8"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.8-mpi+mpiabi.tar.gz"
+[[SuperLU_DIST_CUDA]]
+arch = "aarch64"
+cuda = "12.8"
+cuda_platform = "sbsa"
+git-tree-sha1 = "2443b2eb6299760bbfd622fd6bef73f9cb463bf3"
+lazy = true
+libc = "glibc"
+mpi = "mpiabi"
+os = "linux"
+
+    [[SuperLU_DIST_CUDA.download]]
+    sha256 = "2d08e4509ded7688b0a4fd1c2fec41e9498a02cf153fb6c8a1f71558e6aa2b40"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.8-mpi+mpiabi.tar.gz"
 [[SuperLU_DIST_CUDA]]
 arch = "x86_64"
 cuda = "12.9"
-git-tree-sha1 = "73c384f0ad6bd54e98aa13c33a51474046d34bef"
+git-tree-sha1 = "0fde35178fe9cbb745121a511648cf3b7bb6b79b"
 lazy = true
 libc = "glibc"
 mpi = "mpiabi"
 os = "linux"
 
     [[SuperLU_DIST_CUDA.download]]
-    sha256 = "467edf9c943e6ee48e34adfd2d3c47ed75781f26d1a1d4cf1dadb4bc701a2e51"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+0/SuperLU_DIST_CUDA.v9.3.2.x86_64-linux-gnu-cuda+12.9-mpi+mpiabi.tar.gz"
+    sha256 = "e829d24b15d5cef504cb5f64f61ac9618a2ca498f386ba85eea40da222a111e6"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.x86_64-linux-gnu-cuda+12.9-mpi+mpiabi.tar.gz"
+[[SuperLU_DIST_CUDA]]
+arch = "aarch64"
+cuda = "12.9"
+cuda_platform = "jetson"
+git-tree-sha1 = "d6a82352473d892b444ec304e3ab28d5dd5265f2"
+lazy = true
+libc = "glibc"
+mpi = "mpiabi"
+os = "linux"
+
+    [[SuperLU_DIST_CUDA.download]]
+    sha256 = "5775f079426626b755b86d28fb88662e059213c73ef5e3d8a12ab80dc7c277c1"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.9-mpi+mpiabi.tar.gz"
+[[SuperLU_DIST_CUDA]]
+arch = "aarch64"
+cuda = "12.9"
+cuda_platform = "sbsa"
+git-tree-sha1 = "5c39530e0e83042641263ae8d892186b8b48c444"
+lazy = true
+libc = "glibc"
+mpi = "mpiabi"
+os = "linux"
+
+    [[SuperLU_DIST_CUDA.download]]
+    sha256 = "6eecd38d8e59fe80d510521c7a54f6d90336221f26e90ec51ff2b75b82220cd4"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.9-mpi+mpiabi.tar.gz"
 [[SuperLU_DIST_CUDA]]
 arch = "x86_64"
 cuda = "13.0"
-git-tree-sha1 = "c8cc0e6a392620f7920f6a86ce59192be956e35c"
+git-tree-sha1 = "41e15f53199dac8a235cf35897f75f826374e361"
 lazy = true
 libc = "glibc"
 mpi = "mpiabi"
 os = "linux"
 
     [[SuperLU_DIST_CUDA.download]]
-    sha256 = "307138fe7c05679bae3f201fd8fa3878db3ee3fae9e0ab83a00f59e31e138384"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+0/SuperLU_DIST_CUDA.v9.3.2.x86_64-linux-gnu-cuda+13.0-mpi+mpiabi.tar.gz"
+    sha256 = "2ea6ddb0d50384489f1cc76dd0f515533b451d03f0e043a3deb5a84b9f28058f"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.x86_64-linux-gnu-cuda+13.0-mpi+mpiabi.tar.gz"
+[[SuperLU_DIST_CUDA]]
+arch = "aarch64"
+cuda = "13.0"
+git-tree-sha1 = "84ac564a85f5335c58f9c419c71d96402de61c47"
+lazy = true
+libc = "glibc"
+mpi = "mpiabi"
+os = "linux"
+
+    [[SuperLU_DIST_CUDA.download]]
+    sha256 = "1e868ebd735d38571d8b747d75022e2adcf37d0124d55603795bf8295f33ca6b"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.aarch64-linux-gnu-cuda+13.0-mpi+mpiabi.tar.gz"
 [[SuperLU_DIST_CUDA]]
 arch = "x86_64"
 cuda = "12.0"
-git-tree-sha1 = "1392ad8ad4baed779662d11440ada1df7a879958"
+git-tree-sha1 = "491fd63a44fec09e561d343fc516192a990440fa"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[SuperLU_DIST_CUDA.download]]
-    sha256 = "1165193b6c18288681e3e4f89cc6b5f4aafcf31f632848d24c6782a346b31490"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+0/SuperLU_DIST_CUDA.v9.3.2.x86_64-linux-gnu-cuda+12.0-mpi+mpich.tar.gz"
+    sha256 = "02057f59bd91b187d53db6ddf313a087207f7a5fb80507b1d8619d09f805c15e"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.x86_64-linux-gnu-cuda+12.0-mpi+mpich.tar.gz"
+[[SuperLU_DIST_CUDA]]
+arch = "aarch64"
+cuda = "12.0"
+cuda_platform = "jetson"
+git-tree-sha1 = "0805b947e09f6d1aa8291c84e56469314a4713e1"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[SuperLU_DIST_CUDA.download]]
+    sha256 = "f2aeacafeb3aa2eb68eb49521e084889f14e820577156f6684d77e5f73d0577e"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0-mpi+mpich.tar.gz"
+[[SuperLU_DIST_CUDA]]
+arch = "aarch64"
+cuda = "12.0"
+cuda_platform = "sbsa"
+git-tree-sha1 = "56a34ee5651cf3b44fc3445062fbe9c70d1fbd27"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[SuperLU_DIST_CUDA.download]]
+    sha256 = "a5589a5a09b37627892560cb1b4b989248ec325cb0fa5b0b3374cff808e44c08"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0-mpi+mpich.tar.gz"
 [[SuperLU_DIST_CUDA]]
 arch = "x86_64"
 cuda = "12.8"
-git-tree-sha1 = "3400234b92699e31bc71e2c1e235f5d22844871f"
+git-tree-sha1 = "f6d60fb07f953e8e50098e5d3924a19915714d84"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[SuperLU_DIST_CUDA.download]]
-    sha256 = "e4cf841c924154348199dc9db6dc4d0d8819feeb6bd570c755016330fd432f69"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+0/SuperLU_DIST_CUDA.v9.3.2.x86_64-linux-gnu-cuda+12.8-mpi+mpich.tar.gz"
+    sha256 = "c05d90d5139f9cf495a7985b42ddb1517d84915eda00e1491a7e72f804b2847e"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.x86_64-linux-gnu-cuda+12.8-mpi+mpich.tar.gz"
+[[SuperLU_DIST_CUDA]]
+arch = "aarch64"
+cuda = "12.8"
+cuda_platform = "jetson"
+git-tree-sha1 = "a19df3f85b048ce174c01218f427db2799c17fe0"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[SuperLU_DIST_CUDA.download]]
+    sha256 = "ced5c7fcffb032446c4a499ec6c27573e2d90d0aaa7fa8923674a1716e7c5475"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.8-mpi+mpich.tar.gz"
+[[SuperLU_DIST_CUDA]]
+arch = "aarch64"
+cuda = "12.8"
+cuda_platform = "sbsa"
+git-tree-sha1 = "862dffe8b081f32804abc467bc7bd036a28bf781"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[SuperLU_DIST_CUDA.download]]
+    sha256 = "03e10a0951aa5e057e1f1e368b6d31a0572a65e4c8da181c2dfc23eb8872c4ce"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.8-mpi+mpich.tar.gz"
 [[SuperLU_DIST_CUDA]]
 arch = "x86_64"
 cuda = "12.9"
-git-tree-sha1 = "d8e0febbdb1c4be979d98bb00a63da01604f95a7"
+git-tree-sha1 = "1d0ef2b6c00130c66f363b01f178b3da20e355ce"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[SuperLU_DIST_CUDA.download]]
-    sha256 = "492318ab663bf9c5f256de27b6e2255a294ab624554d61782d4b2344b156bc96"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+0/SuperLU_DIST_CUDA.v9.3.2.x86_64-linux-gnu-cuda+12.9-mpi+mpich.tar.gz"
+    sha256 = "c4ab3cc2d2f5ce5fbc39afcbd62f4e6fa2e65e035eb1e853ec4960a894757ade"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.x86_64-linux-gnu-cuda+12.9-mpi+mpich.tar.gz"
+[[SuperLU_DIST_CUDA]]
+arch = "aarch64"
+cuda = "12.9"
+cuda_platform = "jetson"
+git-tree-sha1 = "be8ba76cd95a64d2ecf3d6a862cebc62bd0aa162"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[SuperLU_DIST_CUDA.download]]
+    sha256 = "748174422d43f9934e41345ef95229a981a63d27e189281f0b91869ac4eea428"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.9-mpi+mpich.tar.gz"
+[[SuperLU_DIST_CUDA]]
+arch = "aarch64"
+cuda = "12.9"
+cuda_platform = "sbsa"
+git-tree-sha1 = "2e5deb8b4a7616339cf4cf3bb24ae848681999ad"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[SuperLU_DIST_CUDA.download]]
+    sha256 = "9bf3ea80469eadd8a3927da4c7b1164073f52e685876ccd5f2b66573ba5f1c4c"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.9-mpi+mpich.tar.gz"
 [[SuperLU_DIST_CUDA]]
 arch = "x86_64"
 cuda = "13.0"
-git-tree-sha1 = "7b68a282dea39739638fb5557eb01770a759abc8"
+git-tree-sha1 = "7ddaf74ec6753933ca34fa24fe6ba4504b220dfc"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[SuperLU_DIST_CUDA.download]]
-    sha256 = "1f16abe0717d26039894e71417403e765db192c7216481f07c3465cc92e8c9fd"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+0/SuperLU_DIST_CUDA.v9.3.2.x86_64-linux-gnu-cuda+13.0-mpi+mpich.tar.gz"
+    sha256 = "5ffb6eb78e0ba52f2411f8791862eb28346613fee4b85af73f5eb20c6703e444"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.x86_64-linux-gnu-cuda+13.0-mpi+mpich.tar.gz"
+[[SuperLU_DIST_CUDA]]
+arch = "aarch64"
+cuda = "13.0"
+git-tree-sha1 = "cf7c380e009d5ec62dc3f04517aba5c0456f062e"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[SuperLU_DIST_CUDA.download]]
+    sha256 = "9f0eba680898dedf9deeb87ddaeacf6d037ddc5c8f65d6a5354823237c10ec05"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_DIST_CUDA_jll.jl/releases/download/SuperLU_DIST_CUDA-v9.3.2+1/SuperLU_DIST_CUDA.v9.3.2.aarch64-linux-gnu-cuda+13.0-mpi+mpich.tar.gz"
