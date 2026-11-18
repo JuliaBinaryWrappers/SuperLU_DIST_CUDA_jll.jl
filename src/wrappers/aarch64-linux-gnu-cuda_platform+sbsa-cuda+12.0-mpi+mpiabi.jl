@@ -11,8 +11,8 @@ using CUDA_Runtime_jll
 JLLWrappers.@generate_wrapper_header("SuperLU_DIST_CUDA")
 JLLWrappers.@declare_executable_product(pdtest_32)
 JLLWrappers.@declare_executable_product(pdtest_64)
-JLLWrappers.@declare_library_product(libsuperlu_dist_Int32, "libsuperlu_dist_Int32.so.9")
-JLLWrappers.@declare_library_product(libsuperlu_dist_Int64, "libsuperlu_dist_Int64.so.9")
+JLLWrappers.@declare_library_product(libsuperlu_dist_Int32, "libsuperlu_dist_cuda_Int32.so.9")
+JLLWrappers.@declare_library_product(libsuperlu_dist_Int64, "libsuperlu_dist_cuda_Int64.so.9")
 function __init__()
     JLLWrappers.@generate_init_header(libblastrampoline_jll, OpenBLAS32_jll, PARMETIS_jll, METIS_jll, CompilerSupportLibraries_jll, MPIABI_jll, MPIPreferences, CUDA_Runtime_jll)
     JLLWrappers.@init_executable_product(
@@ -27,13 +27,13 @@ function __init__()
 
     JLLWrappers.@init_library_product(
         libsuperlu_dist_Int32,
-        "lib/libsuperlu_dist_Int32.so",
+        "lib/libsuperlu_dist_cuda_Int32.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libsuperlu_dist_Int64,
-        "lib/libsuperlu_dist_Int64.so",
+        "lib/libsuperlu_dist_cuda_Int64.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

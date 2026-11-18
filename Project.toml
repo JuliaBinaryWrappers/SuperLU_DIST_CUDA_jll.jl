@@ -1,4 +1,4 @@
-version = "9.3.2+1"
+version = "9.3.3+0"
 name = "SuperLU_DIST_CUDA_jll"
 uuid = "32712609-44d4-5b88-8647-7f032361c66d"
 
@@ -37,5 +37,6 @@ libblastrampoline_jll = "5.4.0"
 Artifacts = "< 0.0.1, 1"
 CompilerSupportLibraries_jll = "1.0.5"
 julia = "1.11"
+CUDA_Runtime_jll = "0.26.1 - 0"
 TOML = "< 0.0.1, 1"
 METIS_jll = "5.1.4"
